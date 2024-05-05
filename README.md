@@ -1,4 +1,4 @@
-# treasury-gov-pandas.py
+# treasury_gov_pandas.py
 
 Library for downloading treasury.gov datasets.
 
