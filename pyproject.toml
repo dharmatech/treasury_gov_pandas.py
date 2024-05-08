@@ -1,0 +1,28 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "treasury_gov_pandas"
+version = "0.0.3"
+authors = [
+  { name="Eduardo Cavazos", email="wayo.cavazos@gmail.com" },
+]
+description = "Library for downloading treasury.gov datasets."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests",
+    "pandas",
+]
+
+[project.urls]
+Homepage = "https://github.com/dharmatech/treasury_gov_pandas.py"
+Issues = "https://github.com/dharmatech/treasury_gov_pandas.py/issues"

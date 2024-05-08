@@ -1,3 +1,4 @@
-/archive
-/examples
+src/archive
+src/examples
 *.pyc
+dist
