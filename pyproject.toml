@@ -18,6 +18,11 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+dependencies = [
+    "requests",
+    "pandas",
+]
+
 [project.urls]
 Homepage = "https://github.com/dharmatech/treasury_gov_pandas.py"
 Issues = "https://github.com/dharmatech/treasury_gov_pandas.py/issues"
