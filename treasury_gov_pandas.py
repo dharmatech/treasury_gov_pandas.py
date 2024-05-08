@@ -57,26 +57,8 @@ def url_to_path(url):
         
         return path
 # ----------------------------------------------------------------------
-# def load_records(url, start_date='1900-01-01', page_size=10000, path=None):
-        
-#         if path is None:
-#             path = url_to_path(url)
-    
-#         if os.path.isfile(path):
-#             print(f'Found {path}. Importing.')
-    
-#             df = pd.read_pickle(path)
-            
-#             return df
-    
-#         else:
-#             print(f'No {path} found. Downloading.')
-    
-#             df = download_records_after(url, start_date, page_size)
-            
-#             df.to_pickle(path)
-    
-#             return df
+# update_records is deprecated.
+# Use load_records instead.
 # ----------------------------------------------------------------------
 def update_records(url, start_date='1900-01-01', page_size=10000, path=None, lookback=2):
     
@@ -114,7 +96,7 @@ def update_records(url, start_date='1900-01-01', page_size=10000, path=None, loo
         df.to_pickle(path)
 
         return df
-
+# ----------------------------------------------------------------------
 
 def load_records(url, start_date='1900-01-01', page_size=10000, path=None, lookback=2, update=False):
     
