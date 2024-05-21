@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "treasury_gov_pandas"
-version = "0.0.6"
+version = "0.0.7"
 authors = [
   { name="Eduardo Cavazos", email="wayo.cavazos@gmail.com" },
 ]
